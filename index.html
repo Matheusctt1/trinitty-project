@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/cores.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <script>
+    function forms_alerta(){
+
+      alert("Formulario enviado.");
+
+    };
+  </script>
+<body>
+    
+    <!--NAVBAR-->
+    <nav class="navbar fundo-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex" href="#">
+            <img src="/assets/logo.png" alt="" width="40" height="40" class="align-text-center mx-2">
+            <p class="fonte-titulo mx-3">TRINNITY</p>
+          </a>
+          <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" style="background-color: white;" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse align-text-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="fonte-link nav-link" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="fonte-link nav-link" href="#">Comunidade</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="fonte-link nav-link" href="#">Membros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="fonte-link nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sistemas
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="fonte-dropdown dropdown-item nav-dropdown" href="#">Ordem Paranormal</a></li>
+                      <li><a class="fonte-dropdown dropdown-item nav-dropdown" href="#">D&D</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+            
+        </div>
+    </nav>
+    
+    <!--SLIDER-->
+    <div id="carouselExampleCaptions" class="carousel slide fixarImagem" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="d-flex">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/img_carr_1.jpg" class="banner w-100" width="800" height="500" alt="...">
+                <img src="/assets/imgteste.jpg" class="banner_mob w-100" width="600" height="250" alt="...">
+                <div class="carousel-caption ">
+                    <h5 class="fonte-carosel">Fichas</h5>
+                    <p class="fonte-sub-titulo">Editaveis</p>
+                </div>
+            </div>
+            <div class="carousel-item"> 
+                <img src="/assets/img_carr_2.jpg" class="banner w-800" width="800" height="500" alt="...">
+                <img src="/assets/imgteste.jpg" class="banner_mob w-100" width="800" height="500" alt="...">
+                <div class="carousel-caption">
+                    <h5 class="fonte-carosel">Sistemas</h5>
+                    <p class="fonte-sub-titulo">diversos</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img_carr_3.jpg" class="banner w-100" width="800" height="500" alt="...">
+                <img src="/assets/imgteste.jpg" class="banner_mob w-100" width="800" height="500" alt="...">
+                <div class="carousel-caption">
+                    <h5 class="fonte-carosel">Comunidade</h5>
+                    <p class="fonte-sub-titulo">Calorosa e Sofisticada</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+    <!--CARDS SISTEMAS-->
+    <div>
+      <h1 class="text-center fonte-explora fonte-titulos my-4">Explorar Sistemas</h1>
+      <div class="container row d-flex justify-content-between my-3 mx-auto py-3">
+        <div class="col-xxl-3 my-4">
+          <div class="card fundo-card" style="width: auto; height: 335px;">
+            <img src="/assets/simbolo_ordem.webp" class="card-img-top mx-auto my-3" style="width: 13rem; height: 12rem;" alt="...">
+            <div class="card-body text-center mt-2 d-flex flex-column">
+              <h5 class="card-title">Ordem Paranormal</h5>
+              <a href="https://fichasop.com/" class="btn cor-botoes">Explorar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 my-4">
+          <div class="card fundo-card" style="width: auto; height: 335px;">
+            <img src="/assets/simbolo_d&d.png" class="card-img-top  mx-auto my-3" style="width: 13rem; height: 12rem;" alt="...">
+            <div class="card-body text-center mt-2 d-flex flex-column">
+              <h5 class="card-title">Dungeons & Dragons</h5>
+              <a href="#" class="btn cor-botoes">Explorar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 my-4">
+          <div class="card fundo-card" style="width: auto; height: 335px;">
+            <img src="/assets/simbolo.png" class="card-img-top mx-auto my-3" style="width: 13rem; height: 12rem;" alt="...">
+            <div class="card-body text-center mt-2 d-flex flex-column">
+              <h5 class="card-title">Em breve...</h5>
+              <a href="#" class="btn cor-botoes">Explorar</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-around mx-auto mt-3 mb-1">
+          <button type="button" class="btn cor-botoes py-3" style="width: 400px;">Explorar Todos os Sistemas</button>
+        </div>
+      </div>  
+    </div>
+
+    <!--COMUNIDADE-->
+      <div>
+        <div class="jogadores gradiente d-flex justify-content-end ">
+          <div class="container_comunidade  d-flex flex-column text-center px-5 py-5" style=" height: 250px;">
+            <div class="comunidade my-4 fonte-titulos">
+              <h2>Encontre Grupos</h2>
+            </div>
+            <div class="comunidade_texto">
+              <p>Junte-se a uma comunidade para conseguir aliados e integrantes para a sua nova jornada.</p>
+            </div>
+            <a href="#" type="button" class="btn cor-botoes py-3 mt-5">Participe</a>
+          </div>
+        </div>
+      </div>
+      
+    <!--Sua fantasia-->
+    <div class="d-flex justify-content-around">
+      <div class="container_fantasia my-5 mx-5 d-flex flex-column text-center " style="width: 800px;">
+        <div class="titulo-fantasia fonte-titulos my-3">
+          <h2>Envie-nos sugestões</h2>
+        </div>
+        <div class="texto-fantasia">
+          <p>Este site está em constante atualização, sendo adicionados novos sistemas e atualizações para os sistemas já adicionados. Se você tiver uma sugestão ou alguma observação para a melhoria desta comunidade.</p>
+          <p>Por favor nos envie, obrigado!!!.</p>
+        </div>
+        <forms action="mailto:matheus.ctt1@gmail.com" method="POST" enctype="text/plain">
+          <div class="form-fantasia">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+              <label for="floatingInput">Nome de Usuário</label>
+            </div>
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+              <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating mt-3">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px" required></textarea>
+              <label for="floatingTextarea2">Sugestão</label>
+            </div>
+          </div>
+          <div class="d-flex justify-content-around mx-auto mt-3 mb-1">
+            <button type="submit" class="btn cor-botoes py-3" style="width: 400px;" onclick=forms_alerta()>Enviar</button>
+          </div>
+        </forms>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-redes d-flex flex-column text-center py-4">
+      <div class="logo-titulo">
+        <img src="/assets/logo.png" alt="Logo" width="40" height="40" class="align-text-center mx-2">
+        <p class="fonte-titulo mx-3">TRINNITY</p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="bolha-redes py-0 px-2 my-3 mx-2 rounded" style="width: 45px;">
+          <a href="https://www.instagram.com/matheusctt1/"><i class="bi bi-instagram" style="font-size: 30px; color: black;"></i></a>
+        </div>
+        <div class="bolha-redes py-0 px-2 my-3 mx-2 rounded" style="width: 45px;">
+          <a href="https://www.linkedin.com/in/matheus-costa-da-trindade-b1a909246"><i class="bi bi-linkedin" style="font-size: 30px; color: black;"></i></a>
+        </div>
+        <div class="bolha-redes py-0 px-2 my-3 mx-2 rounded" style="width: 45px;">
+          <a href="https://twitter.com/_Th3Pr3ss1on_"><i class="bi bi-twitter" style="font-size: 30px; color: black;"></i></a>
+        </div>
+        <div class="bolha-redes py-0 px-2 my-3 mx-2 rounded" style="width: 45px;">
+          <a href="https://github.com/Matheusctt1"><i class="bi bi-github" style="font-size: 30px; color: black;"></i></a>
+        </div>
+      </div>
+      <p class="" style="font-size: 18px; color: white;">© Copyright 2023 All Rights Reserved</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
