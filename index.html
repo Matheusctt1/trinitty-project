@@ -116,7 +116,7 @@
             <img src="/assets/simbolo_ordem.webp" class="card-img-top mx-auto my-3" style="width: 13rem; height: 12rem;" alt="...">
             <div class="card-body text-center mt-2 d-flex flex-column">
               <h5 class="card-title">Ordem Paranormal</h5>
-              <a href="https://fichasop.com/" class="btn cor-botoes">Explorar</a>
+              <a class="btn cor-botoes" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasOrdem" aria-controls="offcanvasRight">Explorar</a>
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@
             <img src="/assets/simbolo_d&d.png" class="card-img-top  mx-auto my-3" style="width: 13rem; height: 12rem;" alt="...">
             <div class="card-body text-center mt-2 d-flex flex-column">
               <h5 class="card-title">Dungeons & Dragons</h5>
-              <a href="#" class="btn cor-botoes">Explorar</a>
+              <a href="#" class="btn cor-botoes" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasD&d" aria-controls="offcanvasRight">Explorar</a>
             </div>
           </div>
         </div>
@@ -142,6 +142,32 @@
           <button type="button" class="btn cor-botoes py-3" style="width: 400px;">Explorar Todos os Sistemas</button>
         </div>
       </div>  
+    </div>
+
+    <!--OFFCANVAS ORDEM-->
+    <div>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasOrdem" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title fonte-titulos" id="offcanvasRightLabel">Ordem Paranormal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          ...
+        </div>
+      </div>
+    </div>
+
+    <!--OFFCANVAS D&d-->
+    <div>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasD&d" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title fonte-titulos" id="offcanvasRightLabel">Dungeons & Dragons</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          ...
+        </div>
+      </div>
     </div>
 
     <!--COMUNIDADE-->
